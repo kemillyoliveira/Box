@@ -1,4 +1,12 @@
 ﻿Console.WriteLine("+-----------+");
 Console.WriteLine("|  Kemilly  |");
 Console.WriteLine("+-----------+");
-
+Console.ReadKey();
+Console.ForegroundColor = ConsoleColor.DarkBlue;
+Console.WriteLine("+-----------+");
+Console.Write("|  ");
+Console.ForegroundColor = ConsoleColor.DarkMagenta;
+Console.Write("Kemilly");
+Console.ForegroundColor = ConsoleColor.DarkBlue;
+Console.WriteLine("  |");
+Console.WriteLine("+-----------+");
